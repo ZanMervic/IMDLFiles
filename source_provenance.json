@@ -1,0 +1,40 @@
+{
+  "source_repository": "https://github.com/ZanMervic/Thesis",
+  "source_main_commit": "75f077cb4a745fbe61871ab99f3fdd494e0486c0",
+  "compatible_long_branch_report": "https://github.com/ZanMervic/Thesis/blob/research/longer-dinov3-baselines/Code/experiments/research_long_training_v1/REPORT.md",
+  "source_model_tree_id_main_and_long": "b77b0df0d5536d9d1fd2df8e9a80a0433e5d5620",
+  "backbone": {
+    "model_id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+    "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+    "bundled": false
+  },
+  "models": {
+    "C1_long": {
+      "source_checkpoint": "Code/experiments/research_long_training_v1/artifacts/runs/c1/checkpoint_best.pt",
+      "checkpoint_sha256": "9122e5b0b6b2aa2c70bad4dea1898d856e6a0d2e1e28847e1b33b7e4f9f88a67",
+      "config_resolved_sha256": "17df0884e1c23ded7d0f4ee33ed98735636b428e180cf2d6bcde2a65d9bba435",
+      "inference_settings_sha256": "e3a18b81c5605a3e967f5cfb50c8faa9625788b0462fa92a13fc371ddbc371de",
+      "selected_best_epoch": 340,
+      "completed_attempts": 10000,
+      "config_source": "checkpoint['config'] exported as JSON; original long-run resolved JSON was unavailable locally; values preserved"
+    },
+    "D1_long": {
+      "source_checkpoint": "Code/experiments/research_long_training_v1/artifacts/runs/d1/checkpoint_best.pt",
+      "checkpoint_sha256": "115da33165c5c03709ca5c8f7f7059ab1d2d7d059f6eb180536a5f7c74ff401b",
+      "config_resolved_sha256": "412f5f1eb96a7a0c75e3203dc77a19c8c0e1fda7c8f7868a7fb74a9a84806488",
+      "inference_settings_sha256": "e3a18b81c5605a3e967f5cfb50c8faa9625788b0462fa92a13fc371ddbc371de",
+      "selected_best_epoch": 20,
+      "completed_attempts": 9900,
+      "config_source": "checkpoint['config'] exported as JSON; original long-run resolved JSON was unavailable locally; values preserved"
+    },
+    "G1_long": {
+      "source_checkpoint": "Code/experiments/research_long_training_v1/artifacts/runs/g1/checkpoint_best.pt",
+      "checkpoint_sha256": "a369a91614fd072c27fa23168a82d98b5d081afb2c283abcbebb8a7195de2aee",
+      "config_resolved_sha256": "adb713b8f1e0123146516cef2a769fcbc71cf2895137a114703973a6f28478e3",
+      "inference_settings_sha256": "e3a18b81c5605a3e967f5cfb50c8faa9625788b0462fa92a13fc371ddbc371de",
+      "selected_best_epoch": 30,
+      "completed_attempts": 9840,
+      "config_source": "checkpoint['config'] exported as JSON; original long-run resolved JSON was unavailable locally; values preserved"
+    }
+  }
+}

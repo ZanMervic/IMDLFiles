@@ -1,0 +1,34 @@
+{
+  "input": {
+    "image_size": [
+      512,
+      512
+    ],
+    "color_order": "RGB",
+    "dtype": "uint8",
+    "resize": "square cv2.INTER_LINEAR"
+  },
+  "normalization": {
+    "scale_uint8_to": "[0, 1] float32",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "tensor_layout": "CHW"
+  },
+  "output": {
+    "activation": "sigmoid probabilities",
+    "native_resolution_resize": "float32 probabilities resized to original H,W with cv2.INTER_LINEAR",
+    "mask_rule": "strict score > 0.5",
+    "extra_morphology": false,
+    "tiling": false,
+    "fusion": false,
+    "image_level_threshold": false
+  }
+}
